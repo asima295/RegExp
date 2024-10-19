@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Bitwise</title>
+    <link rel="shortcut icon" href="w3.png" type="image/x-icon">
+    <link rel="stylesheet" href="Bitwise.css">
+    <link rel="stylesheet" href="all.css">
+</head>
+
+<body>
+    <div class="d1">
+        <img src="w3.png" alt="">
+        <div id="d1d1">
+            <div id="d1d1a1"><a href="#">Tutorials</a></div>
+            <div id="d1d1a1"><a href="#">Exrcises</a></div>
+            <div id="d1d1a1"><a href="#">Certifiates</a></div>
+            <div id="d1d1a1"><a href="#">Services</a></div>
+        </div>
+        <input type="search" name="search" id="s1" placeholder="Search...">
+        <div id="d1d2">
+            <div id="get"><a href="#">Plus</a></div>
+            <div id="get"><a href="#">Spaces</a></div>
+            <div id="get"><a href="#">Get Certified</a></div>
+            <div id="login">
+                <a href="#">Sign Up</a>
+                <a href="#">Log in</a>
+            </div>
+        </div>
+    </div>
+    <div class="d2">
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#" style="background-color: rgb(25, 189, 126);">JAVASCRIPT</a>
+        <a href="#">SQL</a>
+        <a href="#">PYTHON</a>
+        <a href="#">JAVA</a>
+        <a href="#">PHP</a>
+        <a href="#">HOW TO</a>
+        <a href="#">W3.CSS</a>
+        <a href="#">C</a>
+        <a href="#">C++</a>
+        <a href="#">C#</a>
+        <a href="#">BOOTSTRAP</a>
+        <a href="#">REACT</a>
+        <a href="#">MYSQL</a>
+        <a href="#">JQUERY</a>
+        <a href="#">EXCEL</a>
+        <a href="#">XML</a>
+        <a href="#">DLANGO</a>
+        <a href="#">NUMPY</a>
+        <a href="#">PANDAS</a>
+    </div>
+
+    <div class="d3">
+        <h2>JS Tutoril</h2>
+        <a href="main.html">JS HOME</a>
+        <a href="introduction.html">JS Introduction</a>
+        <a href="wereto.html">JS Where To</a>
+        <a href="output.html">JS Output</a>
+        <a href="statments.html">JS Statements</a>
+        <a href="syntex.html">JS Syntax</a>
+        <a href="comments.html">JS Comments</a>
+        <a href="variables.html">JS Variables</a>
+        <a href="let.html">JS Let</a>
+        <a href="">JS Const</a>
+        <a href="">JS Operators</a>
+        <a href="">JS Arithmetic</a>
+        <a href="">JS Assignment</a>
+        <a href="">JS Data Types</a>
+        <a href="">JS Functions</a>
+        <a href="">JS Objects</a>
+        <a href="objectproperties.html">JS Object Properties</a>
+        <a href="objectmethod.html">JS Object Methods</a>
+        <a href="objectdisplay.html">JS Oblect Display</a>
+        <a href="object constructors.html">JS Object Constructors</a>
+        <a href="">JS Events</a>
+        <a href="">JS strings</a>
+        <a href="">JS String Methode</a>
+        <a href="">JS String Search</a>
+        <a href="">JS String Templates</a>
+        <a href="">JS Number</a>
+        <a href="">JS Biglnt</a>
+        <a href="">JS Number Methods</a>
+        <a href="">JS Number Properties</a>
+        <a href="">JS Arrays</a>
+        <a href="">JS Array Methods</a>
+        <a href="">JS Array Search</a>
+        <a href="">JS Array Sort</a>
+        <a href="">JS Array Iteration</a>
+        <a href="">JS Array Const</a>
+        <a href="">JS Dates</a>
+        <a href="">JS Date Formats</a>
+        <a href="">JS Date Get Methods</a>
+        <a href="">JS Deat Set Methods</a>
+        <a href="">JS Math</a>
+        <a href="">JS Random</a>
+        <a href="">JS Booleans</a>
+        <a href="">JS Comparisons</a>
+        <a href="">JS If Else</a>
+        <a href="">JS Switch</a>
+        <a href="">JS Loop For</a>
+        <a href="">JS Loop For In</a>
+        <a href="">JS Loop For Of</a>
+        <a href="">JS Loop While</a>
+        <a href="">JS Break</a>
+        <a href="">JS Iterables</a>
+        <a href="">JS Sets</a>
+        <a href="">JS Set Methods</a>
+        <a href="">JS Map</a>
+        <a href="">JS Map Methods</a>
+        <a href="">JS Type of</a>
+        <a href="">JS Type Conversion</a>
+        <a href="">JS Destructring</a>
+        <a href="Bitwise.html" style="background-color: rgb(2, 138, 43); color: white;">JS Bitwise</a>
+        <a href="">JS RegExp</a>
+        <a href="">JS Precedence</a>
+        <a href="">JS Errors</a>
+        <a href="">JS Scope</a>
+        <a href="">JS Hoisiting</a>
+        <a href="">JS Strict Mode</a>
+        <a href="">JS this Keyword</a>
+        <a href="">JS Arrow Function </a>
+        <a href="">JS Classes</a>
+        <a href="">JS Modules</a>
+        <a href="">JS JSON</a>
+        <a href="">JS Debugging</a>
+        <a href="">JS style Guide</a>
+        <a href="">JS Mistakes</a>
+        <a href="">JS Performance</a>
+        <a href="">JS Reserved Words</a>
+
+    </div>
+
+    <div class="d4">
+        <div id="d4d1">
+            <h1>JavaScript Bitwise Operations</h1>
+            <input type="button" value="&lt;Previous" href="main.html" id="d4b1">
+            <input type="button" value="Next&gt;" href="" id="d4b2">
+        </div>
+        <hr>
+
+        <div class="d4d2">
+            <h1>JavaScript Bitwise Operators</h1>
+        </div>
+
+        <table>
+            <tr>
+                <th>Operator</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>&</td>
+                <td>AND</td>
+                <td>Sets each bit to 1 if both bits are 1</td>
+            </tr>
+            <tr>
+                <td>|</td>
+                <td>OR</td>
+                <td>Sets each bit to 1 if one of two bits is 1</td>
+            </tr>
+            <tr>
+                <td>^</td>
+                <td>XOR</td>
+                <td>Sets each bit to 1 if only one of two bits is 1</td>
+            </tr>
+            <tr>
+                <td>~</td>
+                <td>NOT</td>
+                <td>Inverts all the bits</td>
+            </tr>
+            <tr>
+                <td><<< /td>
+                <td>Zero fill left <br> shift</td>
+                <td>Shifts left by pushing zeros in from the right and let the leftmost bits fall off</td>
+            </tr>
+            <tr>
+                <td>>></td>
+                <td>Signed right <br> shift</td>
+                <td>Shifts right by pushing copies of the leftmost bit in from the left, and let the <br> rightmost bits
+                    fall off</td>
+            </tr>
+            <tr>
+                <td>>>></td>
+                <td>Zero fill right <br> shift</td>
+                <td>Shifts right by pushing zeros in from the left, and let the rightmost bits fall off
+                </td>
+            </tr>
+        </table>
+
+        <div class="d4d2">
+            <h1>Examples</h1>
+        </div>
+
+        <table>
+            <tr>
+                <th>Operation</th>
+                <th>Result</th>
+                <th>Same as</th>
+                <th>Result</th>
+            </tr>
+            <tr>
+                <td>5 & 1</td>
+                <td>1</td>
+                <td>0101 & 0001</td>
+                <td>0001</td>
+            </tr>
+            <tr>
+                <td>5 | 1</td>
+                <td>5</td>
+                <td>0101 | 0001</td>
+                <td>0101</td>
+            </tr>
+            <tr>
+                <td>~ 5</td>
+                <td>10</td>
+                <td> ~0101</td>
+                <td>1010</td>
+            </tr>
+            <tr>
+                <td>5 << 1</td>
+                <td>10</td>
+                <td>0101 << 1</td>
+                <td>1010</td>
+            </tr>
+            <tr>
+                <td>5 ^ 1</td>
+                <td>4</td>
+                <td>0101 ^ 0001</td>
+                <td>0100</td>
+            </tr>
+            <tr>
+                <td>5 >> 1</td>
+                <td>2</td>
+                <td>0101 >> 1</td>
+                <td>0010</td>
+            </tr>
+            <tr>
+                <td>5 >>> 1</td>
+                <td>2</td>
+                <td>0101 >>> 1</td>
+                <td>0010</td>
+            </tr>
+        </table>
+        <hr>
+
+        <div class="d4d2">
+            <h1>JavaScript Uses 32 bits Bitwise Operands</h1>
+            <p>
+                JavaScript stores numbers as 64 bits floating point numbers, but all bitwise operations are performed on
+                32 bits <br>
+                binary numbers. <br><br>
+                Before a bitwise operation is performed, JavaScript converts numbers to 32 bits signed integers.
+                <br><br>
+                After the bitwise operation is performed, the result is converted back to 64 bits JavaScript numbers.
+            </p>
+        </div>
+
+        <div id="d4d4">
+            <p>
+                The examples above uses 4 bits unsigned binary numbers. Because of this ~ 5 returns 10.<br><br>
+                Since JavaScript uses 32 bits signed integers, it will not return 10. It will return -6. <br><br>
+                00000000000000000000000000000101 (5) <br><br>
+                11111111111111111111111111111010 (~5 = -6) <br><br>
+                A signed integer uses the leftmost bit as the minus sign.
+            </p>
+        </div>
+        <hr>
+
+        <div class="d4d2">
+            <h1>JavaScript Bitwise AND</h1>
+            <p>
+                When a bitwise AND is performed on a pair of bits, it returns 1 if both bits are 1.<br><br>
+                One bit example: <span style="margin-left: 300px; color: black;"> 4 bits example: </span>
+            </p>
+        </div>
+
+        <div class="div">
+            <table class="t1t1">
+                <tr>
+                    <th>Operation</th>
+                    <th>Result</th>
+                </tr>
+                <tr>
+                    <td>0 & 0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0 & 1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1 & 0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1 & 1</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="div">
+            <table class="t1t1">
+                <tr>
+                    <th>Operation</th>
+                    <th>Result</th>
+                </tr>
+                <tr>
+                    <td>1111 & 0000</td>
+                    <td>0000</td>
+                </tr>
+                <tr>
+                    <td>1111 & 0001</td>
+                    <td>0001</td>
+                </tr>
+                <tr>
+                    <td>1111 & 0010</td>
+                    <td>0010</td>
+                </tr>
+                <tr>
+                    <td>1111 & 0100</td>
+                    <td>0100</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="d4d2">
+            <h1>JavaScript Bitwise OR</h1>
+            <p>
+                When a bitwise OR is performed on a pair of bits, it returns 1 if one of the bits is 1: <br><br>
+                One bit example: <span style="margin-left: 300px; color: black;"> 4 bits example: </span>
+            </p>
+        </div>
+
+        <div class="div">
+        <table class="t1t1">
+            <tr>
+                <th>Operation</th>
+                <th>Result</th>
+            </tr>
+            <tr>
+                <td>0 | 0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>0 | 1</td>
+                <td> 1</td>
+            </tr>
+            <tr>
+                <td>1 | 0</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>1 | 1</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
+
+        <div class="div">
+        <table class="t1t1">
+            <tr>
+                <th>Operation</th>
+                <th>Result</th>
+            </tr>
+            <tr>
+                <td>1111 | 0000</td>
+                <td>1111</td>
+            </tr>
+            <tr>
+                <td>1111 | 0001</td>
+                <td>1111</td>
+            </tr>
+            <tr>
+                <td>1111 | 0010</td>
+                <td>1111</td>
+            </tr>
+            <tr>
+                <td>1111 | 0100</td>
+                <td>1111</td>
+            </tr>
+        </table>
+    </div>
+
+        <div class="d4d2">
+            <h1>JavaScript Bitwise XOR</h1>
+            <p>
+                When a bitwise XOR is performed on a pair of bits, it returns 1 if the bits are different: <br><br>
+                One bit example:<span style="margin-left: 300px; color: black;"> 4 bits example: </span>
+            </p>
+        </div>
+
+        <div class="div">
+            <table class="t1t1">
+                <tr>
+                    <th>Operation</th>
+                    <th>Result</th>
+                </tr>
+                <tr>
+                    <td>0 ^ 0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0 ^ 1</td>
+                    <td> 1</td>
+                </tr>
+                <tr>
+                    <td>1 ^ 0</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>1 ^ 1</td>
+                    <td>0</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="div">
+            <table class="t1t1">
+                <tr>
+                    <th>Operation</th>
+                    <th>Result</th>
+                </tr>
+                <tr>
+                    <td>1111 ^ 0000</td>
+                    <td>1111</td>
+                </tr>
+                <tr>
+                    <td>1111 ^ 0001</td>
+                    <td>1110</td>
+                </tr>
+                <tr>
+                    <td>1111 ^ 0010</td>
+                    <td>1101</td>
+                </tr>
+                <tr>
+                    <td>1111 ^ 0100</td>
+                    <td>1011</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="d4d2">
+            <h1>JavaScript Bitwise AND (&)</h1>
+            <p>
+                Bitwise AND returns 1 only if both bits are 1:
+            </p>
+        </div>
+
+        <table>
+            <tr>
+                <th>Decimal</th>
+                <th>Binary</th>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>00000000000000000000000000000101</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>00000000000000000000000000000001</td>
+            </tr>
+            <tr>
+                <td>5 & 1</td>
+                <td>00000000000000000000000000000001 (1)</td>
+            </tr>
+        </table>
+
+        <div id="d4d3">
+            <h3>Example</h3>
+            <div class="d4d3">
+                <p><span id="sp1"> let</span> x =<span id="sp3"> 5</span> & <span id="sp3"> 1</span>;</p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_bitwise_and" target="_blank" id="d4b3">Try it
+                Yourself</a>
+        </div>
+        <hr>
+
+        <div class="d4d2">
+            <h1>JavaScript Bitwise OR (|)</h1>
+            <p>
+                Bitwise OR returns 1 if one of the bits is 1:
+            </p>
+        </div>
+
+        <table>
+            <tr>
+                <th>Decimal</th>
+                <th>Binary</th>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>00000000000000000000000000000101</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>00000000000000000000000000000001</td>
+            </tr>
+            <tr>
+                <td>5 & 1</td>
+                <td>00000000000000000000000000000001 (5)</td>
+            </tr>
+        </table>
+
+        <div id="d4d3">
+            <h3>Example</h3>
+            <div class="d4d3">
+                <p><span id="sp1"> let</span> x =<span id="sp3"> 5</span> | <span id="sp3"> 1</span>;</p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_bitwise_or" target="_blank" id="d4b3">Try it
+                Yourself</a>
+        </div>
+        <hr>
+
+        <div class="d4d2">
+            <h1>JavaScript Bitwise XOR (^)</h1>
+            <p>
+                Bitwise XOR returns 1 if the bits are different:
+            </p>
+        </div>
+
+        <table>
+            <tr>
+                <th>Decimal</th>
+                <th>Binary</th>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>00000000000000000000000000000101</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>00000000000000000000000000000001</td>
+            </tr>
+            <tr>
+                <td>5 ^ 1</td>
+                <td>00000000000000000000000000000100 (4)</td>
+            </tr>
+        </table>
+
+        <div id="d4d3">
+            <h3>Example</h3>
+            <div class="d4d3">
+                <p><span id="sp1"> let</span> x =<span id="sp3"> 5</span> ^ <span id="sp3"> 1</span>;</p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_bitwise_xor" target="_blank" id="d4b3">Try it
+                Yourself</a>
+        </div>
+        <hr>
+
+        <div class="d4d2">
+            <h1>JavaScript Bitwise NOT (~)</h1>
+        </div>
+
+        <table>
+            <tr>
+                <th>Decimal</th>
+                <th>Binary</th>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>00000000000000000000000000000101</td>
+            </tr>
+            <tr>
+                <td>~5</td>
+                <td>11111111111111111111111111111010 (-6)</td>
+            </tr>
+        </table>
+
+        <div id="d4d3">
+            <h3>Example</h3>
+            <div class="d4d3">
+                <p><span id="sp1"> let</span> x = ~5;</p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_bitwise_not" target="_blank" id="d4b3">Try it
+                Yourself</a>
+        </div> <hr>
+
+        <div class="d4d2">
+            <h1>JavaScript (Zero Fill) Bitwise Left Shift (<<)</h1>
+            <p>This is a zero fill left shift. One or more zero bits are pushed in from the right, and the leftmost bits fall off:            </p>
+        </div>
+
+        <table>
+            <tr>
+                <th>Decimal</th>
+                <th>Binary</th>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>00000000000000000000000000000101</td>
+            </tr>
+            <tr>
+                <td>5 << 1</td>
+                <td>00000000000000000000000000001010 (10)</td>
+            </tr>
+        </table>
+
+        <div id="d4d3">
+            <h3>Example</h3>
+            <div class="d4d3">
+                <p><span id="sp1"> let</span>  x =<span id="sp3">  5</span>  <<<span id="sp3">  1</span> ;</p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_bitwise_left" target="_blank" id="d4b3">Try it Yourself</a>
+        </div><hr>
+
+        <div class="d4d2">
+            <h1>JavaScript (Sign Preserving) Bitwise Right Shift (>>)</h1>
+            <p>This is a sign preserving right shift. Copies of the leftmost bit are pushed in from the left, and the rightmost bits <br> fall off:</p>
+        </div>
+
+        <table>
+            <tr>
+                <th>Decimal</th>
+                <th>Binary</th>
+            </tr>
+            <tr>
+                <td>-5</td>
+                <td>00000000000000000000000000000101</td>
+            </tr>
+            <tr>
+                <td>-5 >> 1</td>
+                <td>00000000000000000000000000000010 (-3)</td>
+            </tr>
+        </table>
+
+        <div id="d4d3">
+            <h3>Example</h3>
+            <div class="d4d3">
+                <p><span id="sp1"> let</span>  x = -<span id="sp3">  5</span> >>  <span id="sp3">  1</span> ;</p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_bitwise_right_sign" target="_blank" id="d4b3">Try it Yourself</a>
+        </div><hr>
+
+        <div class="d4d2">
+            <h1>JavaScript (Zero Fill) Right Shift (>>>)</h1>
+            <p>This is a zero fill right shift. One or more zero bits are pushed in from the left, and the rightmost bits fall off:</p>
+        </div>
+
+        <table>
+            <tr>
+                <th>Decimal</th>
+                <th>Binary</th>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>00000000000000000000000000000101</td>
+            </tr>
+            <tr>
+                <td>5 >>> 1</td>
+                <td>00000000000000000000000000000010 (2)</td>
+            </tr>
+        </table>
+
+        <div id="d4d3">
+            <h3>Example</h3>
+            <div class="d4d3">
+                <p><span id="sp1"> let</span>  x =<span id="sp3">  5</span> >>>  <span id="sp3">  1</span> ;</p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_bitwise_right" target="_blank" id="d4b3">Try it Yourself</a>
+        </div><hr>
+
+        <div class="d4d2">
+            <h1>Binary Numbers</h1>
+            <p>
+                Binary numbers with only one bit set are easy to understand:
+            </p>
+        </div>
+
+        <table>
+            <tr>
+                <th>Binary Representation</th>
+                <th>Decimal value</th>
+            </tr>
+            <tr>
+                <td>00000000000000000000000000000001</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>00000000000000000000000000000010</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>00000000000000000000000000000100</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>00000000000000000000000000001000</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>00000000000000000000000000010000</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>00000000000000000000000000100000</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>00000000000000000000000001000000</td>
+                <td>64</td>
+            </tr>
+        </table>
+
+        <div class="d4d2">
+            <p>
+                Setting a few more bits reveals the binary pattern:
+            </p>
+        </div>
+
+        <table>
+            <tr>
+                <th>Binary Representation</th>
+                <th>Decimal value</th>
+            </tr>
+            <tr>
+                <td>00000000000000000000000000000101</td>
+                <td>5 (4 + 1)</td>
+            </tr>
+            <tr>
+                <td>00000000000000000000000000001101</td>
+                <td>13 (8 + 4 + 1)</td>
+            </tr>
+            <tr>
+                <td>00000000000000000000000000101101</td>
+                <td>45 (32 + 8 + 4 + 1)</td>
+            </tr>
+        </table>
+
+        <div class="d4d2">
+            <p>
+                JavaScript binary numbers are stored in two's complement format. <br><br>
+                This means that a negative number is the bitwise NOT of the number plus 1:
+            </p>
+        </div>
+
+        <table>
+            <tr>
+                <th>Binary Representation</th>
+                <th>Decimal value</th>
+            </tr>
+            <tr>
+                <td>00000000000000000000000000000101</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>11111111111111111111111111111011</td>
+                <td>-5</td>
+            </tr>
+            <tr>
+                <td>00000000000000000000000000000110</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>11111111111111111111111111111010</td>
+                <td>-6</td>
+            </tr>
+            <tr>
+                <td>00000000000000000000000000101000</td>
+                <td>40</td>
+            </tr>
+           <tr>
+            <td>11111111111111111111111111011000</td>
+            <td>-40</td>
+           </tr>
+        </table>
+
+        <div id="d4d4">
+            <h1>Joke:</h1>
+            <p>
+                There are only 10 types of people in the world: those who understand binary and those who don't.
+            </p>
+        </div> <hr>
+
+        <div class="d4d2">
+            <h1>Converting Decimal to Binary</h1>
+        </div>
+
+        <div id="d4d3">
+            <h3>Example</h3>
+            <div class="d4d3">
+               <p>
+              <span id="sp1"> function</span> dec2bin(dec){ <br>
+                <span id="sp1">   return</span> (dec >>><span id="sp3">  0</span>).toString(<span id="sp3"> 2</span>);<br>
+                  }
+               </p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_bitwise_convert" target="_blank" id="d4b3">Try it Yourself</a>
+        </div> <hr>
+
+        <div class="d4d2">
+            <h1>Converting Binary to Decimal</h1>
+        </div>
+
+        <div id="d4d3">
+            <h3>Example</h3>
+            <div class="d4d3">
+               <p>
+              <span id="sp1"> function</span> dec2bin(dec){ <br>
+                <span id="sp1">   return</span> parseInt(bin, <span id="sp3">  2</span>).toString( <span id="sp3"> 10</span>);<br>
+                  }
+               </p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_bitwise_convert_binary" target="_blank" id="d4b3">Try it Yourself</a>
+        </div> 
+
+        <div class="d4">
+            <div id="d4d1">
+                <input type="button" value="&lt;Previous" href="main.html" id="d4b1">
+                <input type="button" value="Next&gt;" href="" id="d4b2">
+            </div>
+
+    </div>
+</body>
+
+</html>
