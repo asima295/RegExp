@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS RegExp</title>
+    <link rel="shortcut icon" href="w3.png" type="image/x-icon">
+    <link rel="stylesheet" href="RegExp.css">
+    <link rel="stylesheet" href="all.css">
+</head>
+
+<body>
+    <div class="d1">
+        <img src="w3.png" alt="">
+        <div id="d1d1">
+            <div id="d1d1a1"><a href="#">Tutorials</a></div>
+            <div id="d1d1a1"><a href="#">Exrcises</a></div>
+            <div id="d1d1a1"><a href="#">Certifiates</a></div>
+            <div id="d1d1a1"><a href="#">Services</a></div>
+        </div>
+        <input type="search" name="search" id="s1" placeholder="Search...">
+        <div id="d1d2">
+            <div id="get"><a href="#">Plus</a></div>
+            <div id="get"><a href="#">Spaces</a></div>
+            <div id="get"><a href="#">Get Certified</a></div>
+            <div id="login">
+                <a href="#">Sign Up</a>
+                <a href="#">Log in</a>
+            </div>
+        </div>
+    </div>
+    <div class="d2">
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#" style="background-color: rgb(25, 189, 126);">JAVASCRIPT</a>
+        <a href="#">SQL</a>
+        <a href="#">PYTHON</a>
+        <a href="#">JAVA</a>
+        <a href="#">PHP</a>
+        <a href="#">HOW TO</a>
+        <a href="#">W3.CSS</a>
+        <a href="#">C</a>
+        <a href="#">C++</a>
+        <a href="#">C#</a>
+        <a href="#">BOOTSTRAP</a>
+        <a href="#">REACT</a>
+        <a href="#">MYSQL</a>
+        <a href="#">JQUERY</a>
+        <a href="#">EXCEL</a>
+        <a href="#">XML</a>
+        <a href="#">DLANGO</a>
+        <a href="#">NUMPY</a>
+        <a href="#">PANDAS</a>
+    </div>
+
+    <div class="d3">
+        <h2>JS Tutoril</h2>
+        <a href="main.html">JS HOME</a>
+        <a href="introduction.html">JS Introduction</a>
+        <a href="wereto.html">JS Where To</a>
+        <a href="output.html">JS Output</a>
+        <a href="statments.html">JS Statements</a>
+        <a href="syntex.html">JS Syntax</a>
+        <a href="comments.html">JS Comments</a>
+        <a href="variables.html">JS Variables</a>
+        <a href="let.html">JS Let</a>
+        <a href="">JS Const</a>
+        <a href="">JS Operators</a>
+        <a href="">JS Arithmetic</a>
+        <a href="">JS Assignment</a>
+        <a href="">JS Data Types</a>
+        <a href="">JS Functions</a>
+        <a href="">JS Objects</a>
+        <a href="objectproperties.html">JS Object Properties</a>
+        <a href="objectmethod.html">JS Object Methods</a>
+        <a href="objectdisplay.html">JS Oblect Display</a>
+        <a href="object constructors.html">JS Object Constructors</a>
+        <a href="">JS Events</a>
+        <a href="">JS strings</a>
+        <a href="">JS String Methode</a>
+        <a href="">JS String Search</a>
+        <a href="">JS String Templates</a>
+        <a href="">JS Number</a>
+        <a href="">JS Biglnt</a>
+        <a href="">JS Number Methods</a>
+        <a href="">JS Number Properties</a>
+        <a href="">JS Arrays</a>
+        <a href="">JS Array Methods</a>
+        <a href="">JS Array Search</a>
+        <a href="">JS Array Sort</a>
+        <a href="">JS Array Iteration</a>
+        <a href="">JS Array Const</a>
+        <a href="">JS Dates</a>
+        <a href="">JS Date Formats</a>
+        <a href="">JS Date Get Methods</a>
+        <a href="">JS Deat Set Methods</a>
+        <a href="">JS Math</a>
+        <a href="">JS Random</a>
+        <a href="">JS Booleans</a>
+        <a href="">JS Comparisons</a>
+        <a href="">JS If Else</a>
+        <a href="">JS Switch</a>
+        <a href="">JS Loop For</a>
+        <a href="">JS Loop For In</a>
+        <a href="">JS Loop For Of</a>
+        <a href="">JS Loop While</a>
+        <a href="">JS Break</a>
+        <a href="">JS Iterables</a>
+        <a href="">JS Sets</a>
+        <a href="">JS Set Methods</a>
+        <a href="">JS Map</a>
+        <a href="">JS Map Methods</a>
+        <a href="">JS Type of</a>
+        <a href="">JS Type Conversion</a>
+        <a href="">JS Destructring</a>
+        <a href="">JS Bitwise</a>
+        <a href="RegExp.html" style="background-color: rgb(2, 138, 43); color: white;">JS RegExp</a>
+        <a href="">JS Precedence</a>
+        <a href="">JS Errors</a>
+        <a href="">JS Scope</a>
+        <a href="">JS Hoisiting</a>
+        <a href="">JS Strict Mode</a>
+        <a href="">JS this Keyword</a>
+        <a href="">JS Arrow Function </a>
+        <a href="">JS Classes</a>
+        <a href="">JS Modules</a>
+        <a href="">JS JSON</a>
+        <a href="">JS Debugging</a>
+        <a href="">JS style Guide</a>
+        <a href="">JS Mistakes</a>
+        <a href="">JS Performance</a>
+        <a href="">JS Reserved Words</a>
+
+    </div>
+
+    <div class="d4">
+        <div id="d4d1">
+            <h1>JavaScript Regular Expressions</h1>
+            <input type="button" value="&lt;Previous" href="main.html" id="d4b1">
+            <input type="button" value="Next&gt;" href="" id="d4b2">
+        </div>
+        <hr>
+
+        <div class="d4d2">
+            <p>
+                A regular expression is a sequence of characters that forms a search pattern. <br> <br>
+                The search pattern can be used for text search and text replace operations.
+            </p>
+        </div>
+        <hr>
+
+        <div class="d4d2">
+            <h1>What Is a Regular Expression?</h1>
+            <p>
+                A regular expression is a sequence of characters that forms a <b>search pattern.</b> <br> <br>
+                When you search for data in a text, you can use this search pattern to describe what you are searching
+                for.<br> <br>
+                A regular expression can be a single character, or a more complicated pattern. <br> <br>
+                Regular expressions can be used to perform all types of <b>text search</b> and <b>text replace</b>
+                operations.<br> <br>
+            </p>
+        </div>
+
+        <div class="d4d2">
+            <h1>Syntax</h1>
+            <div class="d4d4">
+                <p> /pattern/modifiers; </p>
+            </div>
+        </div>
+
+        <div id="d4d3">
+            <h3>Example</h3>
+            <div class="d4d3">
+                <p>/w3schools/i;</p>
+            </div>
+        </div>
+
+        <div class="d4d2">
+            <p>
+                Example explained: <br><br>
+                <b>/w3schools/i </b> is a regular expression.<br><br>
+                <b>w3schools</b> is a pattern (to be used in a search).<br><br>
+                <b> i</b> is a modifier (modifies the search to be case-insensitive).
+            </p>
+        </div>
+        <hr>
+
+        <div class="d4d2">
+            <h1>Using String Methods</h1>
+            <p>
+                In JavaScript, regular expressions are often used with the two <b>string methods:</b> <span> search()
+                </span>and <span> replace()</span>.<br><br>
+                The<span> search()</span> method uses an expression to search for a match, and returns the position of
+                the match. <br><br>
+                The<span> replace() </span>method returns a modified string where the pattern is replaced.
+            </p>
+        </div>
+        <hr>
+
+        <div class="d4d2">
+            <h1>Using String search() With a String</h1>
+            <p>
+                The<span>search()</span> method searches a string for a specified value and returns the position of the
+                match:
+            </p>
+        </div>
+
+        <div id="d4d3">
+            <h3>Example</h3>
+            <p>Use a string to do a search for "W3schools" in a string:</p>
+            <div class="d4d3">
+                <p>
+                    <span id="sp1"> let</span> text = <span id="sp2"> "Visit W3Schools!"</span>; <br>
+                    <span id="sp1"> let</span> n = text.search(<span id="sp2"> "W3Schools"</span>);
+                </p>
+            </div>
+            <p>The result in n will be:</p>
+            <div class="d4d3">
+                <p>6 </p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_search" target="_blank" id="d4b3">Try
+                it
+                Yourself</a>
+        </div>
+        <hr>
+
+        <div class="d4d2">
+            <p>Use a regular expression to do a case-insensitive search for "w3schools" in a string:</p>
+        </div>
+
+        <div id="d4d3">
+            <h3>Example</h3>
+            <p>Use a string to do a search for "W3schools" in a string:</p>
+            <div class="d4d3">
+                <p>
+                    <span id="sp1"> let</span> text = <span id="sp2"> "Visit W3Schools!"</span>; <br>
+                    <span id="sp1"> let</span> n = text.search(<span id="sp3"> "W3Schools/i"</span>);
+                </p>
+            </div>
+            <p>The result in n will be:</p>
+            <div class="d4d3">
+                <p>6 </p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_regexp_string_search" target="_blank"
+                id="d4b3">Try it
+                Yourself</a>
+        </div>
+        <hr>
+
+        <div class="d4d2">
+            <h1>Using String replace() With a String </h1>
+            <p>The <span> replace()</span> method replaces a specified value with another value in a string:</p>
+        </div>
+
+        <div id="d4d3">
+            <div class="d4d3">
+                <p>
+                    <span id="sp1"> let</span> text =<span id="sp2"> "Visit Microsoft!"</span>; <br>
+                    <span id="sp1"> let</span> result = text.replace(<span id="sp2"> "Microsoft"</span>,<span id="sp2">
+                        "W3Schools"</span>);
+                </p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_replace" target="_blank" id="d4b3">Try
+                it
+                Yourself</a>
+        </div>
+        <hr>
+
+        <div class="d4d2">
+            <h1>Use String replace() With a Regular Expression</h1>
+        </div>
+
+        <div id="d4d3">
+            <h3>Example</h3>
+            <p>Use a case insensitive regular expression to replace Microsoft with W3Schools in a string:</p>
+            <div class="d4d3">
+                <p>
+                    <span id="sp1"> let</span> text =<span id="sp2"> "Visit Microsoft!"</span>; <br>
+                    <span id="sp1"> let</span> result = text.replace(<span id="sp3"> /microsoft/i</span>,<span id="sp2">
+                        "W3Schools"</span>);
+                </p>
+            </div>
+            <p>The result in res will be:</p>
+            <div class="d4d3">
+                <p>
+                    Visit W3Schools!
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_regexp_string_replace" target="_blank"
+                id="d4b3">Try it
+                Yourself</a>
+        </div>
+        <hr>
+
+        <div id="d4d4">
+            <p>
+                Regular expression arguments (instead of string arguments) can be used in the methods above.<br><br>
+                Regular expressions can make your search much more powerful (case insensitive for example).
+            </p>
+        </div>
+        <hr>
+
+        <div class="d4d2">
+            <h1>Regular Expression Modifiers </h1>
+            <p><b>Modifiers</b> can be used to perform case-insensitive more global searches:</p>
+        </div>
+
+        <table>
+            <tr>
+                <th><b>Modifier</b></th>
+                <th><b>Description</b></th>
+                <th><b>Try it</b></th>
+            </tr>
+            <tr>
+                <td>i</td>
+                <td>Perform case-insensitive matching</td>
+                <td><a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_regexp_i">Try it</a></td>
+            </tr>
+            <tr>
+                <td>g</td>
+                <td>Perform a global match (find all)</td>
+                <td><a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_regexp_g">Try it</a></td>
+            </tr>
+            <tr>
+                <td>m</td>
+                <td>Perform multiline matching</td>
+                <td><a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_regexp_m">Try it</a></td>
+            </tr>
+            <tr>
+                <td>d</td>
+                <td>Perform start and end matching (New in  ES2022 )</td>
+                <td><a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_regexp_indices">Try it</a></td>
+            </tr>
+        </table>
+
+        <div class="d4d2">
+            <h1>Regular Expression Patterns </h1>
+            <p> <b>Brackets</b>  are used to find a range of characters:</p>
+        </div>
+
+        <table>
+            <tr>
+                <th><b>Expression</b></th>
+                <th><b>Description</b></th>
+                <th><b>Try it</b></th>
+            </tr>
+            <tr>
+                <td>[abc]</td>
+                <td>Find any of the characters between the brackets</td>
+                <td><a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_regexp_abc">Try it</a></td>
+            </tr>
+            <tr>
+                <td>[0-9]</td>
+                <td>Find any of the digits between the brackets</td>
+                <td><a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_regexp_0-9">Try it</a></td>
+            </tr>
+            <tr>
+                <td>(x|y)</td>
+                <td>Find any of the alternatives separated with |</td>
+                <td><a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_regexp_xy">Try it</a></td>
+            </tr>
+        </table>
+
+        <div class="d4d2">
+            <p> <b>Metacharacters</b>  are characters with a special meaning:</p>
+        </div>
+
+        <table>
+            <tr>
+                <th><b>Metacharacter</b></th>
+                <th><b>Description</b></th>
+                <th><b>Try it</b></th>
+            </tr>
+            <tr>
+                <td>/d</td>
+                <td>Find a digit</td>
+                <td><a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_regexp_d">Try it</a></td>
+            </tr>
+            <tr>
+                <td>/s</td>
+                <td>Find a whitespace character</td>
+                <td><a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_regexp_s">Try it</a></td>
+            </tr>
+            <tr>
+                <td>/b</td>
+                <td>Find a match at the beginning of a word like this: \bWORD, or at the end <br> of a word like this: WORD\b</td>
+                <td><a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_regexp_b">Try it</a><br> <br><a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_regexp_b2">Try it</a></td>
+            </tr>
+            <tr>
+                <td>/uxxxx</td>
+                <td>Find the Unicode character specified by the hexadecimal number xxxx</td>
+                <td><a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_regexp_ux">Try it</a></td>
+            </tr>
+        </table>
+
+        <div class="d4d2">
+            <p> <b> Quantifiers</b> define quantities:</p>
+        </div>
+
+        <table>
+            <tr>
+                <th><b>Quantifier</b></th>
+                <th><b>Description</b></th>
+                <th><b>Try it</b></th>
+            </tr>
+            <tr>
+                <td>n+</td>
+                <td>Matches any string that contains at least one n</td>
+                <td><a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_regexp_n1">Try it</a></td>
+            </tr>
+            <tr>
+                <td>n*</td>
+                <td>Matches any string that contains zero or more occurrences of n</td>
+                <td><a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_regexp_n">Try it</a></td>
+            </tr>
+            <tr>
+                <td>n?</td>
+                <td>Matches any string that contains zero or one occurrences of n</td>
+                <td><a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_regexp_n3">Try it</a></a></td>
+            </tr>
+        </table><hr>
+
+        <div class="d4d2">
+            <h1>Using the RegExp Object</h1>
+            <p> In JavaScript, the RegExp object is a regular expression object with predefined properties and methods.</p>
+        </div><hr>
+
+        <div class="d4d2">
+            <h1>Using test()</h1>
+            <p> 
+                The <span>test()</span>  method is a RegExp expression method. <br><br>
+                It searches a string for a pattern, and returns true or false, depending on the result.<br><br>
+                The following example searches a string for the character "e":
+            </p>
+        </div><hr>
+
+        <div id="d4d3">
+            <h1>Example</h1>
+            <div class="d4d3">
+                <p>
+                    <span id="sp1"> const</span>  pattern =<span id="sp3">  /e/</span> ; <br>
+                    pattern.test(<span id="sp2"> "The best things in life are free!"</span> );
+                </p>
+            </div>
+            <p>Since there is an "e" in the string, the output of the code above will be:</p>
+            <div class="d4d3">
+                <p>true</p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_regexp_test" target="_blank" id="d4b3">Try it Yourself</a>
+        </div>
+
+        <div id="d4d3">
+            <p>You don't have to put the regular expression in a variable first. The two lines above can be shortened to one:</p>
+            <div class="d4d3">
+                <p>
+                    <span id="sp3">  /e/</span>.test( <span id="sp2"> "The best things in life are free!"</span>);
+                </p>
+            </div>
+        </div> <hr>
+
+        <div class="d4d2">
+            <h1>Using exec()</h1>
+            <p> 
+                The <span>exec()</span>  method is a RegExp expression method. <br><br>
+                It searches a string for a specified pattern, and returns the found text as an object.  <br><br>            
+                If no match is found, it returns an empty (null) object.  <br><br>            
+                The following example searches a string for the character "e":
+            </p>
+        </div>
+
+        <div id="d4d3">
+          <h3>Example</h3>
+            <div class="d4d3">
+                <p>
+                    <span id="sp3">  /e/</span>.test( <span id="sp2"> "The best things in life are free!"</span>);
+                </p>
+            </div>
+        <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_regexp_exec" target="_blank" id="d4b3">Try it Yourself</a>
+        </div>
+       
+        <div class="d4d2">
+            <h1>Complete RegExp Reference</h1>
+            <p> 
+                For a complete reference, go to our <a href="">Complete JavaScript RegExp Reference.</a>  <br><br>
+                The reference contains descriptions and examples of all RegExp properties and methods.
+            </p>
+        </div>
+
+        <div id="d4d1">
+            <input type="button" value="&lt;Previous" href="main.html" id="d4b1">
+            <input type="button" value="Next&gt;" href="" id="d4b2">
+        </div>
+
+    </div>
+</body>
+
+</html>
